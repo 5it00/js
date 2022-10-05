@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .okadd{
+            color: brown;
+            background: rgb(173, 255, 174);
+        }
+        *{
+            margin: 0%;
+        }
+        .all{
+            color: white;
+            background: palevioletred;
+           width: 100px;
+           height: 45vh;
+        }
+        .all p{
+            padding: 10px;
+        }
+        .all p:hover, button:hover{
+            cursor: pointer;
+            background: black;
+        }
+        button{
+            border-radius: 6px;
+            background-color: purple;
+            color: white;
+          
+        }
+        #close{
+     position: absolute;
+        left: 125px;
+        }
+        .hide{
+            display: none;
+        }
+        #focuse{
+            position: absolute;
+            right: 10px;
+            color:black;
+            background-color:rgb(106, 205, 63);
+            border-radius: 9px;
+            top:20px;
+            
+        }
+        #input{
+            position: absolute;
+            right: 308px;
+            top: 20px;
+        }
+       .photos >img{
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+        border: 20px;
+       }
+       .main > img{
+        width: 400px;
+        height: 400px;
+       }
+       .later >img{
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+        border: 20px;
+       }
+       .colors >div{
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+       
+
+       }
+       #pink{
+        background-color: pink;
+       }
+       #purple{
+        background-color: purple;
+       }
+       #palegreen{
+        background-color: palegreen;
+       }
+       #gray{
+        background-color: gray;
+       }
+
+    </style>
+   
+
+   
+</head>
+<body>
+   
+   <!-- <div id ="dom">
+    <p>
+        khitam salim wadi 22 years old software engineering student 
+    </p></div>
+ <script src="khitam.js"></script>-->
+ <button id="open" class="hide"> open</button>
+ <button id="close"> close</button>
+ <div class="all">
+    <p>Name</p>
+    <p> Email</p>
+    <p> chatting</p>
+    <p> Content US</p>
+    <p>Log out</p>
+ 
+ </div>
+ 
+ <button  id="before" >befor</button>
+ <button id="after" >after</button>
+ <button id="inside" >inside</button>
+ <button id="focuse" >forfocusing</button>
+ <input id="input" type="text" placeholder="type">
+ <p id="para"> Khitam</p>
+ <div id="box" style="height:90px ; background-color:navajowhite";></div>
+<hr>
+ <input type="number" id="money"placeholder="dollar" >
+ <input type="number" id="money2"placeholder="palestinain">
+ <p id="hey">ccccccccccccccccccccccccccccccccccccccccc
+ </p>
+ 
+ <script src="rn.js"></script>
+ <div class="source">
+    <div class="photos">
+         <img  onclick="main.src=this.src "src="five.png" alt="1">
+         <img onclick="main.src=this.src " src="four.png" alt="2">
+         <img onclick="main.src=this.src "src="one.png" alt="3">
+         <img onclick="main.src=this.src "src="three.png" alt="4">
+         <img onclick="main.src=this.src "src="two.png" alt="5">
+    </div>
+    <div class="main">
+        <img src="approved.png"  name="main" alt="0">
+    </div>
+    <div class="later">
+        <img  onmouseenter="main.src=this.src "src="five.png" alt="1">
+        <img onmouseenter="main.src=this.src " src="four.png" alt="2">
+        <img onmouseenter="main.src=this.src "src="one.png" alt="3">
+        <img onmouseenter="main.src=this.src "src="three.png" alt="4">
+        <img onmouseenter="main.src=this.src "src="two.png" alt="5">
+   </div>
+ </div>
+ <div class="colors">
+    <div onclick ="setcolors(this.id)"id="pink"></div>
+    <div onclick ="setcolors(this.id)"id="purple"></div>
+    <div onclick ="setcolors(this.id)"id="palegreen"></div>
+    <div onclick ="setcolors(this.id)"id="gray"></div>
+ </div>
+</body>
+</html>
